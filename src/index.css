@@ -16,14 +16,23 @@ header
 
 header h1
 {
-    font-family:'Courier New', Courier, monospace ;
+    font-family:'Courier New', Courier, monospace;
 }
 
+header h2
+{
+    font-family:'Courier New', Courier, monospace;
+}
+
+header div
+{
+    text-align: center;
+}
 
 img
 {
     width: 200px;
-    border-radius: 50%;
+    border-radius: 25%;
 }
 
 
