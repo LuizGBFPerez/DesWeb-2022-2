@@ -120,11 +120,6 @@ footer
     padding-bottom: 2%;
 }
 
-form section
-{
-    
-}
-
 input[type=text]
 {
     
@@ -232,4 +227,5 @@ input[type=text]:focus
         text-align: center;
         width: 100%;
     }
+    
 }
