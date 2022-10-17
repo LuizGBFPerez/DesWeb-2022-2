@@ -86,16 +86,34 @@ nav ul li a:hover
     text-decoration: underline;
 }
 
+main
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4px;
+}
 
 footer
 {
     position: absolute;
+    display: flex;
     padding-top: 4%;
     bottom: 0px;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
     width: 100%;
 }
 
+footercont
+{
+    position: relative;
+    display: flex;
+    padding-top: 4%;
+    bottom: 0px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
 
 #titulo
 {
@@ -221,11 +239,24 @@ input[type=text]:focus
 
     footer
     {
-        position: absolute;
+        position: relative;
         padding-top: 4%;
         bottom: 0px;
         text-align: center;
         width: 100%;
+        font-size: 1.5vw;
+    }
+
+    footercont
+    {
+        position: relative;
+        display: flex;
+        padding-top: 4%;
+        bottom: 0px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        font-size: 1.5vw;
     }
     
 }
